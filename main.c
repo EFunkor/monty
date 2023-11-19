@@ -3,8 +3,8 @@
 stack_t *head = NULL;
 
 /**
- * main - entry point of the function
- * @argc: arguments count
+ * main - entry point of the fxn.
+ * @argc: arguments count.
  * @argv: list of arguments
  * Return: always 0
  */
@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 }
 
 /**
- * create_node - A function that creates a node.
- * @n: Number to go inside the node.
- * Return: a pointer to the node. Otherwise NULL.
+ * create_node - An fxn to create a node
+ * @n: Numbr to go inside the node.
+ * Return: a ptr to the node. or NULL if otherwise.
  */
 stack_t *creator(int n)
 {
@@ -40,7 +40,7 @@ stack_t *creator(int n)
 }
 
 /**
- * free_mem - A function that frees nodes in the stack.
+ * free_mem - A fxn to free nodes in the stack
  * Return: void.
  */
 void free_mem(void)
@@ -60,8 +60,8 @@ void free_mem(void)
 
 
 /**
- * enqueue - A function that adds a node to the queue.
- * @new_node: Pointer to the new node.
+ * enqueue - An fxn to add a node to the queue
+ * @new_node: Ptr to the new node.
  * @ln: line number
  */
 void enqueue(stack_t **new_node, __attribute__((unused))unsigned int ln)
