@@ -10,10 +10,10 @@
 #include <stdarg.h>
 
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly linked list rep of a stack and/or queues.
  * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ * @prev: ptr to previous element of the stack and/or queue.
+ * @next: ptr to next element of the stack and/or queue.
  *
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO
@@ -43,13 +43,13 @@ extern stack_t *head;
 typedef void (*op_func)(stack_t **, unsigned int);
 
 
-/*Function prototypes for file operations*/
+/*Fxn prototypes for file operations*/
 void opener(char *file_name);
 int parser(char *buffer, int line_number, int format);
 void reader(FILE *);
 void loc(char *, char *, int, int);
 
-/* Function prototypes of stack operations*/
+/* Fxn prototypes of stack operations*/
 stack_t *creator(int n);
 void free_mem(void);
 void pall(stack_t **, unsigned int);
@@ -63,19 +63,19 @@ void pop(stack_t **, unsigned int);
 void nop(stack_t **, unsigned int);
 void swapn(stack_t **, unsigned int);
 
-/* Function prototypes for Math operations with nodes*/
+/* Fxn prototypes for Math operations with nodes*/
 void addxn(stack_t **, unsigned int);
 void subxn(stack_t **, unsigned int);
 void divxn(stack_t **, unsigned int);
 void mul(stack_t **, unsigned int);
 void mod(stack_t **, unsigned int);
 
-/* Function prototypes for string operations*/
+/* Fxn prototypes for string operations*/
 void pchar(stack_t **, unsigned int);
 void pstr(stack_t **, unsigned int);
 void rotl(stack_t **, unsigned int);
 
-/*Function prototype for hanlding all errors*/
+/*Fxn prototype for hanlding all errors*/
 void progErr(int error_num, ...);
 void Errmes(int error_num, ...);
 void stringer(int error_num, ...);

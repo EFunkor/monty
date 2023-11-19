@@ -2,8 +2,8 @@
 
 /**
  * mul - A function that multiplies the top two elements of the stack.
- * @stack: Pointer to a pointer to top node of the stack.
- * @line_number: line number.
+ * @stack: Ptr to a ptr to top node of the stack
+ * @line_number: line nmber.
  * Return: void.
  */
 void mul(stack_t **stack, unsigned int line_number)
@@ -22,10 +22,10 @@ void mul(stack_t **stack, unsigned int line_number)
 
 
 /**
- * mod - A function tha computes the remainder of the division
+ * mod - An fxn tha computing the remainder of the division
  * of the top two elements of the stack.
- * @stack: Pointer to a pointer to the top node of the stack.
- * @line_number: line number.
+ * @stack: Ptr to a ptr to top node of the stack
+ * @line_number: line nmbr.
  * Return: void.
  */
 void mod(stack_t **stack, unsigned int line_number)

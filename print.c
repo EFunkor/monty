@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * pchar - A function that prints the char at the top of the stack.
- * @stack: Pointer to a pointer to top node of the stack.
+ * pchar - An fxn to prints the char at the top of the stack.
+ * @stack: Ptr to a ptr to top node of the stack.
  * @line_number: line number.
  * Return: void
  */
@@ -20,8 +20,8 @@ void pchar(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * pstr - A function that prints a string starting from the top.
- * @stack: Pointer to a pointer to top node of the stack.
+ * pstr - an fxn to print a string starting from the top
+ * @stack: Ptr to a pointer to top node of the stack.
  * @ln: line number.
  * Return: void.
  */
@@ -49,9 +49,9 @@ void pstr(stack_t **stack, __attribute__((unused))unsigned int ln)
 }
 
 /**
- * rotl - A function that rotates the stack to the top
- * @stack: Pointer to a pointer to top node of the stack.
- * @ln: line number.
+ * rotl - Fxn rotates the stack to the top
+ * @stack: Ptr to a ptr to top node of the stack.
+ * @ln: line nmbr
  * Return: void
  */
 void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
@@ -74,9 +74,9 @@ void rotl(stack_t **stack, __attribute__((unused))unsigned int ln)
 
 
 /**
- * rotr - A function that rotates the stack to the bottom.
- * @stack: Pointer to a pointer to top node of the stack.
- * @ln: line number.
+ * rotr - FXn TO rotates the stack to the bottom.
+ * @stack: Ptr to a pointer to top node of the stack.
+ * @ln: line nmbr
  * Return: void.
  */
 void rotr(stack_t **stack, __attribute__((unused))unsigned int ln)
