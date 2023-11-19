@@ -1,8 +1,8 @@
 #include "monty.h"
 
 /**
- * opener - A function that opens a file
- * @file_name: the file namepath
+ * opener - A fxn to open file
+ * @file_name: Namepath of the file.
  * Return: void
  */
 
@@ -19,8 +19,8 @@ void opener(char *file_name)
 
 
 /**
- * reader - A function that reads a file
- * @fd: pointer to file descriptor
+ * reader - A fxn to read file
+ * @fd: pointer to file descrip
  * Return: void
  */
 
@@ -39,8 +39,8 @@ void reader(FILE *fd)
 
 
 /**
- * parser - A function that separates each line into tokens.
- * @buffer: line from the file
+ * parser - An fxn separating each line into tokens.
+ * @buffer: line from that file.
  * @line_number: line number
  * @format:  format.
  * Return: Returns 0 if the opcode is stack. 1 if queue.
